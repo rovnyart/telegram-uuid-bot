@@ -1,0 +1,21 @@
+{
+  "name": "telegram-uuid-bot",
+  "version": "1.0.0",
+  "description": "simple Telegram bot for generating uuids",
+  "main": "index.js",
+  "author": "rovnyart",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
